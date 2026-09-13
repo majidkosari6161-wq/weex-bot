@@ -1,10 +1,10 @@
 {
   "status": "WAITING",
-  "last_candle": "2026-09-13 16:30:00+00:00",
-  "saved_at_utc": "2026-09-13 16:48:15.313622+00:00",
+  "last_candle": "2026-09-13 18:30:00+00:00",
+  "saved_at_utc": "2026-09-13 18:56:33.359548+00:00",
   "data_file": "weex_15m_v1677.csv",
   "demo_only": true,
   "operation_mode": "PRIMARY",
   "system_id": "DESKTOP-ATN1MR0",
-  "version": "V167.8.7"
+  "version": "V167.8.9"
 }
