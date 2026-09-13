@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# State files (تولید مجدد می‌شوند)
+v1677_decay_state.json
+v1677_last_price_telemetry.json
+
+# Sensitive
+*.env
+secrets.json
