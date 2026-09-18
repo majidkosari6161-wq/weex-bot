@@ -1,0 +1,2 @@
+python weex_v167_8_9_DEMO.py
+pause

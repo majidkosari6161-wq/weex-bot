@@ -1,12 +1,48 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
 
-# State files (تولید مجدد می‌شوند)
-v1677_decay_state.json
-v1677_last_price_telemetry.json
+# SuperBot cache
+.superbot_cache/
 
-# Sensitive
-*.env
-secrets.json
+# Logs
+*.log
+log_*.txt
+log_run.txt
+
+# Test outputs
+bt_full.txt
+bt_short.txt
+
+# Test scripts (temp)
+run_backtest_90d.py
+run_backtest_90d_fee.py
+run_backtest_optimized.py
+run_wfo_fee.py
+run_final.py
+run_final2.py
+rebuild_test.py
+test_overrides.py
+
+# SuperBot runs (backtest results)
+superbot_runs/
+
+# SuperBot models (trained models — reproduce from labeler + trainer)
+superbot_models/
+
+# SuperBot ledger (trade history)
+superbot_ledger/
+
+# State files
+v1677_*.json
+v1677_*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
